@@ -7,6 +7,7 @@ export default defineConfig({
     clean: true,
     format: ["esm"], // Ensure you're targeting CommonJS
     external: [
+        "@elizaos/core",
         "dotenv",
         "fs",
         "path",
